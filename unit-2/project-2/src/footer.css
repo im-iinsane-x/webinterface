@@ -1,0 +1,9 @@
+.hobbies-footer {
+  width: min(100%, 1080px);
+  margin: 32px auto 0;
+  padding: 24px;
+  box-sizing: border-box;
+  border-top: 1px solid var(--border);
+  color: var(--text);
+  text-align: center;
+}

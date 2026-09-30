@@ -1,0 +1,9 @@
+.app-footer {
+text-align: center;
+padding: 20px;
+margin-top: 34px;
+background: var(--text-primary);
+color: #fff5ec;
+font-size: 13.5px;
+font-family: "Work Sans", sans-serif;
+}

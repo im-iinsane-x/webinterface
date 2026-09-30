@@ -1,0 +1,42 @@
+.student-card {
+background: var(--surface);
+border: 1px solid var(--line);
+border-radius: 18px;
+padding: 28px;
+display: flex;
+gap: 26px;
+align-items: flex-start;
+max-width: 700px;
+margin: 28px auto;
+box-shadow: 0 10px 30px -18px rgba(58, 46, 39, 0.25);
+}
+.student-photo {
+width: 112px;
+height: 112px;
+border-radius: 50%;
+object-fit: cover;
+border: 4px solid var(--surface-alt);
+outline: 2px solid var(--coral);
+outline-offset: 3px;
+flex-shrink: 0;
+}
+.student-info p {
+margin: 7px 0;
+font-size: 15px;
+font-family: "Work Sans", sans-serif;
+}
+.status {
+font-weight: 600;
+padding: 3px 12px;
+border-radius: 20px;
+font-size: 12.5px;
+display: inline-block;
+}
+.status.eligible {
+background: rgba(31, 166, 160, 0.14);
+color: var(--teal);
+}
+.status.not-eligible {
+background: rgba(255, 107, 74, 0.14);
+color: var(--coral);
+}

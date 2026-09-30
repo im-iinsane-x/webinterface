@@ -1,0 +1,7 @@
+.hobby-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+  gap: 24px;
+  width: min(100%, 1080px);
+  margin: 0 auto 32px;
+}

@@ -1,0 +1,39 @@
+.subject-list-card {
+background: var(--surface);
+border: 1px solid var(--line);
+border-radius: 18px;
+padding: 28px;
+max-width: 700px;
+margin: 28px auto;
+box-shadow: 0 10px 30px -18px rgba(58, 46, 39, 0.25);
+}
+.subject-list-card h3 {
+font-family: "Fraunces", serif;
+font-weight: 600;
+font-size: 18px;
+color: var(--text-primary);
+margin-bottom: 14px;
+}
+.subject-ul {
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-bottom: 18px;
+}
+.subject-ul li {
+background: var(--surface-alt);
+color: var(--coral);
+border: 1px solid var(--line);
+padding: 6px 16px;
+border-radius: 20px;
+font-size: 13.5px;
+font-weight: 600;
+font-family: "Work Sans", sans-serif;
+}
+.semester-info p {
+margin: 5px 0;
+font-size: 14.5px;
+color: var(--text-secondary);
+font-family: "Work Sans", sans-serif;
+}

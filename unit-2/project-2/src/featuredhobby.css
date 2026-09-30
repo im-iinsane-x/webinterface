@@ -1,0 +1,89 @@
+.featured-hobby {
+	display: grid;
+	grid-template-columns: minmax(0, 380px) minmax(0, 1fr);
+	max-width: 1080px;
+	margin: 0 auto 28px;
+	overflow: hidden;
+	border: 1px solid var(--border);
+	border-radius: 20px;
+	background: var(--bg);
+	box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.6);
+}
+
+.featured-hobby__visual {
+	min-height: 340px;
+}
+
+.featured-hobby__content {
+	padding: 40px 44px;
+}
+
+.featured-hobby__title {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 16px;
+	color: var(--text-h);
+	font-family: "Sora", sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.featured-hobby__icon {
+	font-size: 24px;
+}
+
+.featured-hobby__description {
+	max-width: 480px;
+	margin-bottom: 26px;
+	color: var(--text);
+	font-family: "Manrope", sans-serif;
+	font-size: 15.5px;
+	line-height: 1.75;
+}
+
+.featured-hobby__why-label {
+	margin-bottom: 12px;
+	color: var(--accent);
+	font-family: "Sora", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.featured-hobby__why-list {
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.featured-hobby__why-list li {
+	position: relative;
+	padding-left: 20px;
+	color: var(--text);
+	font-family: "Manrope", sans-serif;
+	font-size: 14.5px;
+}
+
+.featured-hobby__why-list li::before {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: var(--accent);
+	content: "";
+}
+
+@media (max-width: 760px) {
+	.featured-hobby {
+		grid-template-columns: minmax(0, 1fr);
+	}
+
+	.featured-hobby__content {
+		padding: 28px 24px 34px;
+	}
+}
